@@ -52,9 +52,9 @@ This project investigates statistical methods for forecasting financial market v
 ---
 
 ## Visualizations and Insights
-- **Forecast Comparison (ARIMA & Prophet vs Actual)**: Highlights classical model limitations.
-- **Bayesian AR(1) Accuracy and Credible Intervals**: Illustrates high accuracy with explicit uncertainty quantification.
-- **Bayesian HMM Regime Identification**: Qualitative visualization of volatility regime transitions.
+- **[Forecast Comparison (ARIMA & Prophet vs Actual)](assets/rolling_ARIMA_prophet_AAPL.png)**: Highlights classical model limitations. 
+- **[Bayesian AR(1) Accuracy and Credible Intervals](assets/AR1_credible_intervals.png)**: Illustrates high accuracy with explicit uncertainty quantification.
+- **[Bayesian HMM Regime Identification](assets/rolling_HMM_forecast_vs_actual.png)**: Qualitative visualization of volatility regime transitions.
 
 ---
 
