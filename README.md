@@ -76,12 +76,23 @@ This project investigates statistical methods for forecasting financial market v
 
 ---
 
-## References & Resources
-- Yahoo Finance API (yfinance)
-- S&P 500 Tickers from Wikipedia
-- Python Libraries: Pandas, NumPy, Matplotlib, PyMC, Prophet, NumPyro
-- Methodological Papers:
-  - Pai & Lin (2005), Ticknor (2013), Ghahramani (2001), Gelman & Rubin (1992), McElreath (2015), Gelman et al. (2013).
+## 📚 References and Resources
+
+### Datasets and APIs:
+- [Yahoo Finance API (`yfinance`)](https://github.com/ranaroussi/yfinance)
+- [S&P 500 Tickers (Wikipedia)](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+
+### Methodological & Theoretical Papers:
+- Pai, P., & Lin, C. (2005). *A hybrid ARIMA and support vector machines model in stock price forecasting.* Expert Systems with Applications.
+- Ticknor, J. (2013). *A Bayesian regularized artificial neural network for stock market forecasting.* Expert Systems with Applications.
+- Ghahramani, Z. (2001). *An Introduction to Hidden Markov Models and Bayesian Networks.* International Journal of Pattern Recognition and Artificial Intelligence.
+- Gelman, A., & Rubin, D. B. (1992). *Inference from Iterative Simulation Using Multiple Sequences.* Statistical Science.
+- McElreath, R. (2015). *Statistical Rethinking: A Bayesian Course with Examples in R and Stan.* CRC Press.
+- Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A., & Rubin, D. B. (2013). *Bayesian Data Analysis (3rd ed.).* Chapman and Hall/CRC.
+- Kreuzer, A., Hauzenberger, N., Kastner, G., & Lopes, H. F. (2023). [*Efficient Bayesian Inference for Multivariate Factor Stochastic Volatility Models.*](https://arxiv.org/pdf/2310.03775) arXiv preprint arXiv:2310.03775.
+
+### Software & Libraries:
+- Python: Pandas, NumPy, Matplotlib, PyMC, Prophet, NumPyro
 
 ---
 
