@@ -76,7 +76,7 @@ This project investigates statistical methods for forecasting financial market v
 
 ---
 
-## 📚 References and Resources
+## References and Resources
 
 ### Datasets and APIs:
 - [Yahoo Finance API (`yfinance`)](https://github.com/ranaroussi/yfinance)
