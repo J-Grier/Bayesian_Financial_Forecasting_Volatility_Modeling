@@ -1,13 +1,14 @@
 # Bayesian Financial Forecasting & Volatility Modeling
 
 ## Quick Links
+- [🚀 Recent Experimentation & Enhancements](#project-update-hamiltonian-monte-carlo-bayesian-hmm-implementation-april-2025)
 - [Overview](#overview)
 - [Methods & Forecasting Approaches](#methods--forecasting-approaches)
 - [Model Performance Comparison](#model-performance-comparison-finalized)
 - [Key Insights & Findings](#key-insights--findings)
 - [Limitations & Future Directions](#limitations--future-directions)
-- [🚀 Recent Experimentation & Enhancements](#-recent-experimentation--enhancements)
 - [References](#references)
+---
 
 ## Overview
 This project investigates statistical methods for forecasting financial market volatility, focusing on comparing classical (frequentist) and Bayesian approaches. Apple Inc. (AAPL) is used as the primary dataset and initial benchmark, with additional evaluation on Microsoft (MSFT) and JPMorgan Chase (JPM). Methods evaluated include ARIMA, Prophet, Bayesian AR(1), and Bayesian Hidden Markov Models (HMMs).
@@ -116,6 +117,7 @@ Visualizes the stability and clarity of volatility regime predictions, with high
 
 ### Notice on Code Availability:
 Given the advanced and experimental nature of our Bayesian HMM model, the detailed implementation code is currently maintained privately. While the full codebase is not publicly available at this stage, we remain dedicated to openly sharing key insights, methodologies, and visualizations to contribute positively to the broader quantitative finance community.
+
 ---
 
 ## Future Directions
