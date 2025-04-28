@@ -70,6 +70,31 @@ This project investigates statistical methods for forecasting financial market v
 
 ---
 
+## Project Update: Hamiltonian Monte Carlo Bayesian HMM Implementation (April 2025)
+### Overview
+We've introduced an advanced Bayesian Hidden Markov Model leveraging Hamiltonian Monte Carlo (HMC) sampling methods to enhance volatility regime identification and forecasting accuracy. This refined HMM explicitly addresses previous computational and predictive challenges, delivering improved insights into volatility transitions and associated trading signals.
+
+### Key Improvements:
+Enhanced Accuracy: Significantly improved volatility forecasting precision.
+
+Reliable Regime Detection: Superior clarity in volatility regime transitions.
+
+Actionable Trading Signals: Practical buy/sell signals derived explicitly from volatility regimes.
+
+### Visualizations:
+**[HMM-based Trading Signals for AAPL](assets/HMM_volatility_trading_signals_AAPL.png)**
+Clearly illustrates buy/sell signals generated explicitly from the HMC-based Bayesian HMM volatility forecasts.
+
+**[Rolling-window Volatility Forecast (Bayesian HMM vs Actual)](assets/rolling_window_HMM_volatility_AAPL.png)**
+Compares explicitly the volatility predictions from the improved HMM with actual market volatility, highlighting predictive performance.
+
+**[Average State Transition Probabilities Heatmap](assets/transition_matrix_heatmap_hmc.png)**
+Explicitly visualizes the stability and clarity of volatility regime predictions, with high probability states clearly indicated (State 0: 70% persistence; State 1: 98% persistence).
+
+### Notice on Code Availability:
+Given the advanced and experimental nature of our Bayesian HMM model, the detailed implementation code is currently maintained privately. While the full codebase is not publicly available at this stage, we remain dedicated to openly sharing key insights, methodologies, and visualizations to contribute positively to the broader quantitative finance community.
+---
+
 ## Future Directions
 - Computational optimization of Bayesian HMM models (e.g., variational inference, Expectation-Maximization).
 - Leverage advanced probabilistic frameworks (Pyro, TensorFlow Probability) for performance enhancements.
@@ -86,7 +111,6 @@ This project investigates statistical methods for forecasting financial market v
 - Pai, P., & Lin, C. (2005). *A hybrid ARIMA and support vector machines model in stock price forecasting.* Expert Systems with Applications.
 - Ticknor, J. (2013). *A Bayesian regularized artificial neural network for stock market forecasting.* Expert Systems with Applications.
 - Ghahramani, Z. (2001). *An Introduction to Hidden Markov Models and Bayesian Networks.* International Journal of Pattern Recognition and Artificial Intelligence.
-- Gelman, A., & Rubin, D. B. (1992). *Inference from Iterative Simulation Using Multiple Sequences.* Statistical Science.
 - McElreath, R. (2015). *Statistical Rethinking: A Bayesian Course with Examples in R and Stan.* CRC Press.
 - Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A., & Rubin, D. B. (2013). *Bayesian Data Analysis (3rd ed.).* Chapman and Hall/CRC.
 - Kreuzer, A., Hauzenberger, N., Kastner, G., & Lopes, H. F. (2023). [*Efficient Bayesian Inference for Multivariate Factor Stochastic Volatility Models.*](https://arxiv.org/pdf/2310.03775) arXiv preprint arXiv:2310.03775.
