@@ -48,7 +48,7 @@ This project investigates statistical methods for forecasting financial market v
 | Gaussian Noise HMM                 | 0.0932 | 0.0130 |
 | Stochastic Noise HMM               | 0.0807 | 0.0101 |
 | Final Gaussian Rolling HMM         | 0.1564 | 0.0377 |
-
+| HMC Bayesian Rolling HMM (New)	   | 0.1546	| 0.0289 |
 ---
 
 ## Visualizations and Insights
