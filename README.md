@@ -120,7 +120,7 @@ Given the advanced and experimental nature of our Bayesian HMM model, the detail
 
 ---
 
-## Future Directions
+## Limitations & Future Directions
 ### Current Limitations
 - Bayesian HMM remains computationally intensive, despite improvements with HMC.
 - Generalizability across diverse market regimes requires further testing.
